@@ -1,4 +1,4 @@
-# BONUS: CSS Graffiti Override Lab
+# CSS Graffiti Override Lab
 
 ## Learning Goals
 
@@ -12,13 +12,14 @@ mural that has been painted over with various graffiti tags. In reality,
 cleaning this up could be a challenging feat; however, in CSS, you have the
 power to manipulate the DOM with just a line or two of code and to restore the
 mural to its original look! In this lab, we've created a virtual wall. Using
-only CSS, how can you remove the tags?
+only CSS, how can you remove the unsightly tags?
 
 ## Getting Started
 
 Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
-Code. Run `learn test` as you go to see your test progress.
+Code. Finally, run `npm install` to install the lab's dependencies. Run
+`npm test` as you go to see your test progress.
 
 ## Use the Browser Developer Tools
 
@@ -89,8 +90,24 @@ markup.
 
 ## Moving On
 
-When you're done, run `learn test` from the command line to confirm you've
-passed all tests.
+When you're ready to leave this lab, run `npm test` from the command line to
+confirm you've passed all tests.
+
+## Saving Your Work Remotely
+
+Currently, the work you've done on this assignment is only on your local
+machine. To preserve work on your GitHub fork, you will need to stage the
+changes you've made, commit them, and push the commit up to GitHub. Use the
+following commands to do this:
+
+```console
+$ git add .
+$ git commit -m "Completed assignment"
+$ git push
+```
+
+If you visit your fork on GitHub, you should now see that _you've_ made the most
+recent commit, and your solution will be present in the files.
 
 ## Conclusion
 
